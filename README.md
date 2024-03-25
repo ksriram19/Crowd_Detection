@@ -1,4 +1,4 @@
-#Crowd Detection in Video and Live Webcam Feeds
+# Crowd Detection in Video and Live Webcam Feeds
 
 Introduction:
 This project aims to detect and track people in both video files and live webcam feeds using computer vision techniques. The detection and tracking are performed using the YOLO (You Only Look Once) object detection algorithm, and the DeepSORT (Deep Simple Online and Realtime Tracking) algorithm for tracking.
