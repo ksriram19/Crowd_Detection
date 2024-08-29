@@ -4,7 +4,7 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![YOLOv5](https://img.shields.io/badge/YOLOv5-v5.0-blue)](https://github.com/ultralytics/yolov5)
-[![DeepSORT](https://img.shields.io/badge/DeepSORT-robust%20tracking-brightgreen)](https://github.com/nwojke/deep_sort)
+
 
 
 ## Overview
@@ -26,39 +26,37 @@ This project utilizes **YOLOv5** for real-time object detection and **DeepSORT**
 ## Installation
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/crowd-detection.git
    cd crowd-detection
-   \`\`\`
+   ```
 
 2. Create a virtual environment and install dependencies:
-   \`\`\`bash
+   ```bash
    python3 -m venv venv
    source venv/bin/activate
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 3. Download the YOLOv5 model weights:
-   \`\`\`bash
+    ```bash
    wget https://github.com/ultralytics/yolov5/releases/download/v5.0/yolov5s.pt
-   \`\`\`
+    ```
 
 ## Usage
 
 ### Live Webcam Feed
 
 Run the following command to start crowd detection on a live webcam feed:
-\`\`\`bash
+ ```bash
 python detect.py --source 0  # 0 is the default webcam device ID
-\`\`\`
-
+ ```
 ### Video File Processing
 
 To process a video file for crowd detection, use:
-\`\`\`bash
+ ```bash
 python detect.py --source path/to/video.mp4
-\`\`\`
-
+ ```
 ### Output Visualization
 
 The system will provide real-time visualizations with bounding boxes and labels for each detected person, along with crowd density insights.
