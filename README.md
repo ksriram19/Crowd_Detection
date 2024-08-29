@@ -5,7 +5,7 @@
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![YOLOv5](https://img.shields.io/badge/YOLOv5-v5.0-blue)](https://github.com/ultralytics/yolov5)
 [![DeepSORT](https://img.shields.io/badge/DeepSORT-robust%20tracking-brightgreen)](https://github.com/nwojke/deep_sort)
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 
 ## Overview
 
